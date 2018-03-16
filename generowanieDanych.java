@@ -74,7 +74,7 @@ public class generowanieDanych {
         String [] miesiace = {
                 "01","02","03","04","05","06",
                 "07","08","09","10","11","12"};
-        Integer dzien = (losowanie.nextInt(32)+1);
+        Integer dzien = (losowanie.nextInt(30)+1);
         pesel+= rok.toString();
         pesel+= miesiace[losowanie.nextInt(12)];
         pesel+= dzien.toString();
